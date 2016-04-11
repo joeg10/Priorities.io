@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html ng-app="taskApp">
+<head>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'  data: gap: https://prioritiesbe.azurewebsites.net; style-src 'self'; media-src *">-->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script src="js/taskCtrl.js"></script>
+    <!--<script src="js/jquery-ui-i18n.min.js"></script>-->
+    <script src="js/jquery.gridly.js"></script>
+    <link href="css/jquery.gridly.css" rel="stylesheet" />
+    <title>Priorities.io</title>
+
+
+    <style>
+        /*.brick.small {
+            width: 140px;
+            height: 140px;
+        }
+
+        .brick.large {
+            width: 300px;
+            height: 300px;
+        }*/
+
+        .example {
+            position: relative;
+            margin-left: 20px;
+        }
+
+            .example .brick {
+                opacity: 1;
+                cursor: pointer;
+                position: relative;
+            }
+
+                .example .brick .delete {
+                    display: block;
+                    color: #FFF;
+                    background: rgba(255, 255, 255, 0.2);
+                    width: 40px;
+                    height: 40px;
+                    top: 0;
+                    right: 0;
+                    position: absolute;
+                    text-align: center;
+                    line-height: 40px;
+                }
+
+                .example .brick.small {
+                    width: 140px;
+                    height: 40px;
+                }
+
+                .example .brick.large {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                .example .brick.dragging {
+                    opacity: 0.8;
+                }
+
+                .example .brick:nth-child(20n + 1) {
+                    background: #1ABC9C;
+                }
+
+                .example .brick:nth-child(20n + 2) {
+                    background: #16A085;
+                }
+
+                .example .brick:nth-child(20n + 3) {
+                    background: #2ECC71;
+                }
+
+                .example .brick:nth-child(20n + 4) {
+                    background: #27AE60;
+                }
+
+                .example .brick:nth-child(20n + 5) {
+                    background: #3498DB;
+                }
+
+                .example .brick:nth-child(20n + 6) {
+                    background: #2980B9;
+                }
+
+                .example .brick:nth-child(20n + 7) {
+                    background: #9B59B6;
+                }
+
+                .example .brick:nth-child(20n + 8) {
+                    background: #8E44AD;
+                }
+
+                .example .brick:nth-child(20n + 9) {
+                    background: #34495E;
+                }
+
+                .example .brick:nth-child(20n + 10) {
+                    background: #2C3E50;
+                }
+
+                .example .brick:nth-child(20n + 11) {
+                    background: #F1C40F;
+                }
+
+                .example .brick:nth-child(20n + 12) {
+                    background: #F39C12;
+                }
+
+                .example .brick:nth-child(20n + 13) {
+                    background: #E67E22;
+                }
+
+                .example .brick:nth-child(20n + 14) {
+                    background: #D35400;
+                }
+
+                .example .brick:nth-child(20n + 15) {
+                    background: #E74C3C;
+                }
+
+                .example .brick:nth-child(20n + 16) {
+                    background: #C0392B;
+                }
+
+                .example .brick:nth-child(20n + 17) {
+                    background: #ECF0F1;
+                }
+
+                .example .brick:nth-child(20n + 18) {
+                    background: #BDC3C7;
+                }
+
+                .example .brick:nth-child(20n + 19) {
+                    background: #95A5A6;
+                }
+
+                .example .brick:nth-child(20n + 20) {
+                    background: #7F8C8D;
+                }
+    </style>
+</head>
+
+<body ng-controller="taskCtrl as vm">
+    <!--<div class="page-header text-center">
+        <h1>
+            <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+            <span style="padding-bottom:10px">Priorities.io</span>
+        </h1>
+        <div class="container">
+            <div class="input-group" style="padding-bottom:15px">
+                <input type="text" class="form-control" ng-model="vm.addTaskText"
+                       placeholder="new task" ng-keypress="($event.which === 13)?vm.addTask():0" />
+                <span class="input-group-btn">
+                    <button ng-click="vm.addTask()" class="btn btn-success">Add Task</button>
+                </span>
+            </div>-->
+            <!--<div class="panel panel-default">-->
+                <section class='example'>
+                    <div class='gridly'>
+                        <div ng-repeat="task in vm.task" class='brick small'>
+                            {{task.tasktext}}<button class="btn btn-xs btn-danger pull-right"
+                                                     ng-click="vm.deleteTask(task)">
+                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <!--<table class="table table-striped">
+                    <tr class="list-group" ng-repeat="task in vm.task">
+                        <td>
+                            {{task.tasktext}}
+                            <button class="btn btn-xs btn-danger pull-right"
+                                    ng-click="vm.deleteTask(task)">
+                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<section class='example'>
+            <div class='gridly'>
+                <div class='brick small'>task 1</div>
+                <div class='brick small'>task 2</div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+                <div class='brick small'></div>
+            </div>
+        </section>-->
+    <!--</div>-->
+
+
+    <!--<body>
+        <div id='wrapper'>
+            <article>
+                <header>
+                    <h2>Azure</h2>
+                    <h1>Mobile Apps</h1>
+
+                    <form id='add-item'>
+                        <button type='submit' id='refresh'>Refresh</button>
+                        <button type='submit'>Add</button>
+                        <div><input type='text' id='new-item-text' placeholder='Enter new task' /></div>
+                    </form>
+                </header>
+
+                <ul id='todo-items'></ul>
+                <p id='summary'>Initializing...</p>
+            </article>
+
+            <footer>
+                <ul id='errorlog'></ul>
+            </footer>
+        </div>-->
+    <!--<script type="text/javascript" src="cordova.js"></script>-->
+    <!--<script type="text/javascript" src="js/index.js"></script>-->
+    <script>
+        (function () {
+            $(function () {
+                $('.gridly').gridly({
+                    columns: 2
+                });
+                $('.gridly').gridly('draggable');
+                return $('.gridly .brick').click(function (event) {
+                    var size;
+                    event.preventDefault();
+                    event.stopPropagation();
+                    $(this).toggleClass('small');
+                    $(this).toggleClass('large');
+                    if ($(this).hasClass('small')) {
+                        size = 140;
+                    }
+                    if ($(this).hasClass('large')) {
+                        size = 300;
+                    }
+                    $(this).data('width', size);
+                    $(this).data('height', size);
+                    return $('.gridly').gridly('layout');
+                });
+            });
+
+        }).call(this);
+
+        //$('.gridly').gridly({
+        //    base: 60,
+        //    gutter: 20,
+        //    columns: 1,
+        //    draggable: {
+        //        zIndex: 800,
+        //        selector: '> *'
+        //    }
+        //});
+
+        //$('.gridly').gridly();
+    </script>
+</body>
+</html>
