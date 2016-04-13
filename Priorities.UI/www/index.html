@@ -7,25 +7,21 @@
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!--<link href="js/jquery/jquery.mobile-1.4.5.min.css" rel="stylesheet" />-->
+    <script src="js/jquery/jquery-2.2.3.min.js"></script>
+    <script src="js/jquery/ui/jquery-ui.min.js"></script>
+    <!--<link href="js/jquery/ui/jquery-ui.min.css" rel="stylesheet" />-->
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script src="js/taskCtrl.js"></script>
     <!--<script src="js/jquery-ui-i18n.min.js"></script>-->
-    <script src="js/jquery.gridly.js"></script>
-    <link href="css/jquery.gridly.css" rel="stylesheet" />
+    <script src="js/jquery/jquery.mobile-1.4.5.min.js"></script>
+    <!--<script src="js/jquery.gridly.js"></script>
+    <link href="css/jquery.gridly.css" rel="stylesheet" />-->
     <title>Priorities.io</title>
 
 
-    <style>
-        /*.brick.small {
-            width: 140px;
-            height: 140px;
-        }
-
-        .brick.large {
-            width: 300px;
-            height: 300px;
-        }*/
+    <!--<style>
 
         .example {
             position: relative;
@@ -144,11 +140,11 @@
                 .example .brick:nth-child(20n + 20) {
                     background: #7F8C8D;
                 }
-    </style>
+    </style>-->
 </head>
 
 <body ng-controller="taskCtrl as vm">
-    <!--<div class="page-header text-center">
+    <div class="page-header text-center">
         <h1>
             <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
             <span style="padding-bottom:10px">Priorities.io</span>
@@ -160,59 +156,50 @@
                 <span class="input-group-btn">
                     <button ng-click="vm.addTask()" class="btn btn-success">Add Task</button>
                 </span>
-            </div>-->
-            <!--<div class="panel panel-default">-->
-                <section class='example'>
-                    <div class='gridly'>
-                        <div ng-repeat="task in vm.task" class='brick small'>
-                            {{task.tasktext}}<button class="btn btn-xs btn-danger pull-right"
-                                                     ng-click="vm.deleteTask(task)">
-                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                            </button>
-                        </div>
-                    </div>
-                </section>
-                <!--<table class="table table-striped">
-                    <tr class="list-group" ng-repeat="task in vm.task">
-                        <td>
-                            {{task.tasktext}}
-                            <button class="btn btn-xs btn-danger pull-right"
-                                    ng-click="vm.deleteTask(task)">
-                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                            </button>
-                        </td>
-                    </tr>
-                </table>-->
-            <!--</div>-->
-        <!--</div>-->
-
-        <!--<section class='example'>
-            <div class='gridly'>
-                <div class='brick small'>task 1</div>
-                <div class='brick small'>task 2</div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
-                <div class='brick small'></div>
             </div>
-        </section>-->
-    <!--</div>-->
+            <div class="panel panel-default">
+
+                <!--<table class="table table-striped">-->
+                <div class="list-group"  id="sortable">
+                    <span href="#" class="list-group-item" ng-repeat="task in vm.task" >
+                        {{task.tasktext}}
+                        <button class="btn btn-xs btn-danger pull-right"
+                                ng-click="vm.deleteTask(task)">
+                            <i class="fa fa-cut"></i>
+                        </button>
+                    </span>
+                </div>
+                <!--</table>-->
+
+                <!--<ul id="sortable">
+
+                    <li class="ui-state-default" ng-repeat="task in vm.task">
+                        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>{{task.tasktext}}
+                        <button class="btn btn-xs btn-danger pull-right"
+                                ng-click="vm.deleteTask(task)">
+                            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                        </button>
+                    </li>
+                </ul>-->
+            </div>
 
 
+
+        </div>
+
+    </div>
+
+
+    <!--<section class='example'>
+        <div class='gridly'>
+            <div ng-repeat="task in vm.task" class='brick small'>
+                {{task.tasktext}}<button class="btn btn-xs btn-danger pull-right"
+                                         ng-click="vm.deleteTask(task)">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>-->
     <!--<body>
         <div id='wrapper'>
             <article>
@@ -237,7 +224,7 @@
         </div>-->
     <!--<script type="text/javascript" src="cordova.js"></script>-->
     <!--<script type="text/javascript" src="js/index.js"></script>-->
-    <script>
+    <!--<script>
         (function () {
             $(function () {
                 $('.gridly').gridly({
@@ -262,19 +249,25 @@
                 });
             });
 
-        }).call(this);
+        }).call(this);-->
+    <!--//$('.gridly').gridly({
+    //    base: 60,
+    //    gutter: 20,
+    //    columns: 1,
+    //    draggable: {
+    //        zIndex: 800,
+    //        selector: '> *'
+    //    }
+    //});
 
-        //$('.gridly').gridly({
-        //    base: 60,
-        //    gutter: 20,
-        //    columns: 1,
-        //    draggable: {
-        //        zIndex: 800,
-        //        selector: '> *'
-        //    }
-        //});
+    //$('.gridly').gridly();-->
+    <!--</script>-->
 
-        //$('.gridly').gridly();
+    <script>
+        $(function () {
+            $("#sortable").sortable();
+            $("#sortable").disableSelection();
+        });
     </script>
 </body>
 </html>

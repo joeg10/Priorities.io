@@ -32,8 +32,9 @@
      */
     function onDeviceReady() {
         // Create a connection reference to our Azure Mobile Apps backend
-        client = new WindowsAzure.MobileServiceClient('https://prioritiesbe.azurewebsites.net');
-
+        //client = new WindowsAzure.MobileServiceClient('https://prioritiesbe.azurewebsites.net');
+        client = new WindowsAzure.MobileServiceClient('http://localhost:59478/');
+        
         // Create a table reference
         todoItemTable = client.getTable('todoitem');
 
