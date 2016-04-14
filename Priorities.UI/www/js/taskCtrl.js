@@ -3,15 +3,15 @@
       var vm = this;
       vm.addTaskText = '';
       vm.task = [
-        { "tasktext": "Fix driveway" },
-        { "tasktext": "Replace roof" },
-        { "tasktext": "Fix dryer" },
-        { "tasktext": "Tear out deck" },
-        { "tasktext": "Add electricity to garage" }
+        { "task_name": "Fix driveway", "due_date": "1/1/2016" },
+        { "task_name": "Replace roof", "due_date": "1/1/2016" },
+        { "task_name": "Fix dryer", "due_date": "1/1/2016" },
+        { "task_name": "Tear out deck", "due_date": "1/15/2016" },
+        { "task_name": "Add electricity to garage", "due_date": "1/3/2016" }
       ];
       vm.addTask = function () {
           if (vm.addTaskText !== '') {
-              vm.task.push({ "tasktext": vm.addTaskText });
+              vm.task.push({ "task_name": vm.addTaskText });
               vm.addTaskText = '';
           }
       }
