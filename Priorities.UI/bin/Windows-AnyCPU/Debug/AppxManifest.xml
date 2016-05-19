@@ -8,7 +8,7 @@
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
   <Identity Name="Priorities" Publisher="CN=Apache Cordova Team" Version="1.0.0.0" ProcessorArchitecture="neutral" />
-  <mp:PhoneIdentity PhoneProductId="d097bf60-fe9b-11e5-a2aa-131e56e45e03" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <mp:PhoneIdentity PhoneProductId="9c92a620-1dc8-11e6-bba5-958aa9fb85ba" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Priorities.io</DisplayName>
     <PublisherDisplayName>Azure Mobile Apps</PublisherDisplayName>

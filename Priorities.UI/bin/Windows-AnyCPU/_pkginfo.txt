@@ -1,1 +1,1 @@
-C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\AppPackages\CordovaApp.Windows10_1.0.0.0_anycpu_debug_Test\CordovaApp.Windows10_1.0.0.0_anycpu_debug.appx
+C:\Users\Joe\Source\Repos\Priorities.io\Priorities.io\AppPackages\CordovaApp.Windows10_1.0.0.0_anycpu_debug_Test\CordovaApp.Windows10_1.0.0.0_anycpu_debug.appx

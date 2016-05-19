@@ -112,7 +112,7 @@
     <vs:platformSpecificWidget platformName="windows" id="Priorities" version="1.0.0.0">
       <vs:name>Priorities.io</vs:name>
       <vs:appxPackageIsForStore>False</vs:appxPackageIsForStore>
-      <vs:packageOutputPath>C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\AppPackages\</vs:packageOutputPath>
+      <vs:packageOutputPath>C:\Users\Joe\Source\Repos\Priorities.io\Priorities.io\AppPackages</vs:packageOutputPath>
     </vs:platformSpecificWidget>
   </vs:platformSpecificValues>
 </widget>

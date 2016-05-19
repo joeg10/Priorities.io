@@ -11,40 +11,32 @@
     <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.1.412/styles/kendo.default.min.css" />
     <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.1.412/styles/kendo.mobile.all.min.css" />-->
 
-
-
-
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <!--<link href="js/jquery/jquery.mobile-1.4.5.min.css" rel="stylesheet" />-->
     <script src="js/jquery/jquery-2.2.3.min.js"></script>
     <script src="js/jquery/ui/jquery-ui.min.js"></script>
-    <!--<link href="js/jquery/ui/jquery-ui.min.css" rel="stylesheet" />-->
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script src="js/taskCtrl.js"></script>
-    <!--<script src="js/jquery-ui-i18n.min.js"></script>-->
     <script src="js/jquery/mobile/jquery.mobile-1.4.5.min.js"></script>
-    <!--<script src="js/jquery.gridly.js"></script>
-    <link href="css/jquery.gridly.css" rel="stylesheet" />-->
-
-
+    <script src="js/gridly/javascripts/jquery.gridly.js"></script>
+    <link href="js/gridly/stylesheets/jquery.gridly.css" rel="stylesheet" />
     <title>Priorities.io</title>
-
-   
 </head>
 
-<body ng-controller="taskCtrl as vm">
-   
-    <div class="container">
+<body ng-controller="taskCtrl as vm" ng-cloak>
+
+    <section class="container">
         <div class="page-header">
             <h1>
                 <span class="fa fa-cloud" aria-hidden="true"></span>
                 <span style="padding-bottom:10px">Priorities.io</span>
+                <i ng-class="{'fa fa-th pull-right': vm.display === 'list', 'fa fa-th-list pull-right': vm.display === 'grid'}" class="fa fa-th pull-right" aria-hidden="true" ng-click="vm.changeDisplay()"></i>
             </h1>
         </div>
 
-       
+
         <div class="input-group" style="padding-bottom:15px">
             <input type="text" class="form-control" ng-model="vm.addTaskText"
                    placeholder="new task" ng-keypress="($event.which === 13)?vm.addTask():0" />
@@ -53,51 +45,115 @@
             </span>
         </div>
         <div class="panel panel-default">
-
             <div class="list-group">
-                <div id="accordion">
+                <div id="accordion" ng-show="vm.display === 'list'">
                     <div href="#" class="list-group-item" ng-repeat="task in vm.task">
                         <span style="cursor: move;">
-                            {{task.task_name}} <span class="pull-right">{{task.due_date}} <i class="fa fa-remove danger" ng-click="vm.deleteTask(task)">  </i></span>
+                            {{task.task_name}} <span class="pull-right">
+                                {{task.due_date}}
+                                <i class="fa fa-remove danger" ng-click="vm.deleteTask(task)">  </i>
+                            </span>
                         </span>
                         <div><p>Section Content</p></div>
                     </div>
                 </div>
             </div>
+            <div class='tasks' ng-show="vm.display === 'grid'">
+                <div class="gridly">
+                    <div class="brick large" ng-repeat="task in vm.task">
+                        <span class="header"><span class="header text">{{task.task_name}}</span> </span><a class='delete' ng-click="vm.deleteTask(task)">&times;</a>
+                        <span class="footer">
+                            <span class="footer text">
+                                {{task.due_date}}
+                            </span>
+                        </span>
+
+                        <!--<span class="pull-right">
+                     </i>
+                </span>-->
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+
+       
+    </section>
 
 
     <script>
 
+        (function () {
             $(function () {
-
-
-                var icons = {
-                    header: "fa fa-arrow-down",
-                    activeHeader: "fa fa-arrow-up"
-                };
-                $("#accordion")
-                        .accordion({
-                            header: '> div > span',
-                            autoHeight: false,
-                            icons: icons
-                        })
-                        .sortable({
-                            axis: 'y',
-                            handle: 'span',
-                            stop: function (event, ui) {
-                                // IE doesn't register the blur when sorting
-                                // so trigger focusout handlers to remove .ui-state-focus
-                                ui.item.children('h3').triggerHandler('focusout');
-
-                                // Refresh accordion to handle new order
-                                $(this).accordion("refresh");
-                            }
-                        });
+                var brick;
+                brick = "<div class='brick small'><div class='delete'>&times;</div></div>";
+                $(document).on("click touchend", ".gridly .brick", function (event) {
+                    var $this, size;
+                    event.preventDefault();
+                    event.stopPropagation();
+                    $this = $(this);
+                    $this.toggleClass('small');
+                    $this.toggleClass('large');
+                    if ($this.hasClass('small')) {
+                        size = 140;
+                    }
+                    if ($this.hasClass('large')) {
+                        size = 300;
+                    }
+                    $this.data('width', size);
+                    $this.data('height', size);
+                    return $('.gridly').gridly('layout');
+                });
+                $(document).on("click", ".gridly .delete", function (event) {
+                    var $this;
+                    event.preventDefault();
+                    event.stopPropagation();
+                    $this = $(this);
+                    $this.closest('.brick').remove();
+                    return $('.gridly').gridly('layout');
+                });
+                $(document).on("click", ".add", function (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    $('.gridly').append(brick);
+                    return $('.gridly').gridly();
+                });
+                return $('.gridly').gridly();
             });
-    
-        
+
+        }).call(this);
+
+        $(function () {
+            //$('.gridly').gridly({
+            //    base: 60, // px
+            //    gutter: 20, // px
+            //    columns: 3
+            //});
+
+            var icons = {
+                header: "fa fa-arrow-down",
+                activeHeader: "fa fa-arrow-up"
+            };
+            $("#accordion")
+                    .accordion({
+                        header: '> div > span',
+                        autoHeight: false,
+                        icons: icons
+                    })
+                    .sortable({
+                        axis: 'y',
+                        handle: 'span',
+                        stop: function (event, ui) {
+                            // IE doesn't register the blur when sorting
+                            // so trigger focusout handlers to remove .ui-state-focus
+                            ui.item.children('h3').triggerHandler('focusout');
+
+                            // Refresh accordion to handle new order
+                            $(this).accordion("refresh");
+                        }
+                    });
+        });
+
+
     </script>
 </body>
 </html>
