@@ -46,11 +46,14 @@ body {
 
 
 
-/*.gridly {
-    position: relative;
-    width: 960px;
+.gridster .gridster-item {
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: #004756;
+    background: #ffffff;
+    padding: 10px;
 }
-    */
 
 .tasks {
     position: relative;
@@ -104,12 +107,28 @@ body {
             line-height: 40px;
         }
 
-          .tasks .brick .footer .text {
-                font-weight: bold;
-                color: #FFF;
-                text-align: right;
-                padding-right: 8px;
-            }
+        .tasks .brick .body {
+            display: block;
+            top: 50px;
+            position: absolute;
+            text-align: left;
+        }
+
+          .tasks .brick .body .formButtons {
+            color: #FFF;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+        }
+
+      
+
+        .tasks .brick .footer .text {
+            font-weight: bold;
+            color: #FFF;
+            text-align: right;
+            padding-right: 8px;
+        }
 
         .tasks .brick.small {
             width: 140px;
