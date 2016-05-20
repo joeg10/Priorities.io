@@ -1,931 +1,937 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>GLOECK-LAPTOP</Machine>
-    <WindowsUser>Joe</WindowsUser>
+    <Machine>HPI7-JOE</Machine>
+    <WindowsUser>RMIAdmin</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>9c92a620-1dc8-11e6-bba5-958aa9fb85ba</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <PackageIdentityName>d097bf60-fe9b-11e5-a2aa-131e56e45e03</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\build\windows\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\Square30x30Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\Square71x71Logo.scale-100.png">
       <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\action-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\action-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\action-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\action-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\action-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\action-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\alert-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\alert-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\alert-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\alert-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\alert-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\alert-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-d-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-l-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-l-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-d-l-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-l-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-l-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-d-l-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-r-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-r-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-d-r-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-r-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-r-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-d-r-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-d-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-d-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-l-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-l-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-l-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-l-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-l-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-l-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-r-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-r-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-r-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-r-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-r-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-r-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-u-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-l-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-l-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-u-l-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-l-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-l-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-u-l-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-r-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-r-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-u-r-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-r-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-r-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-u-r-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\arrow-u-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\arrow-u-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\audio-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\audio-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\audio-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\audio-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\audio-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\audio-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\back-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\back-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\back-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\back-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\back-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\back-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bars-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bars-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\bars-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bars-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bars-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\bars-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bullets-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bullets-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\bullets-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bullets-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\bullets-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\bullets-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\calendar-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\calendar-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\calendar-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\calendar-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\calendar-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\calendar-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\camera-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\camera-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\camera-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\camera-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\camera-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\camera-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-d-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-d-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-d-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-d-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-d-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-d-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-l-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-l-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-l-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-l-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-l-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-l-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-r-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-r-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-r-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-r-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-r-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-r-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-u-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-u-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-u-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-u-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\carat-u-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\carat-u-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\check-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\check-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\check-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\check-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\check-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\check-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\clock-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\clock-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\clock-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\clock-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\clock-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\clock-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\cloud-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\cloud-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\cloud-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\cloud-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\cloud-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\cloud-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\comment-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\comment-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\comment-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\comment-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\comment-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\comment-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\delete-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\delete-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\delete-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\delete-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\delete-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\delete-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\edit-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\edit-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\edit-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\edit-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\edit-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\edit-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\eye-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\eye-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\eye-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\eye-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\eye-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\eye-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forbidden-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forbidden-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\forbidden-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forbidden-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forbidden-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\forbidden-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forward-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forward-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\forward-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forward-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\forward-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\forward-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\gear-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\gear-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\gear-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\gear-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\gear-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\gear-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\grid-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\grid-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\grid-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\grid-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\grid-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\grid-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\heart-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\heart-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\heart-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\heart-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\heart-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\heart-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\home-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\home-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\home-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\home-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\home-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\home-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\info-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\info-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\info-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\info-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\info-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\info-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\location-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\location-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\location-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\location-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\location-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\location-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\lock-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\lock-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\lock-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\lock-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\lock-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\lock-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\mail-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\mail-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\mail-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\mail-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\mail-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\mail-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\minus-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\minus-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\minus-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\minus-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\minus-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\minus-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\navigation-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\navigation-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\navigation-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\navigation-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\navigation-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\navigation-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\phone-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\phone-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\phone-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\phone-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\phone-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\phone-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\plus-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\plus-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\plus-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\plus-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\plus-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\plus-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\power-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\power-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\power-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\power-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\power-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\power-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\recycle-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\recycle-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\recycle-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\recycle-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\recycle-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\recycle-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\refresh-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\refresh-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\refresh-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\refresh-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\refresh-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\refresh-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\search-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\search-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\search-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\search-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\search-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\search-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\shop-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\shop-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\shop-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\shop-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\shop-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\shop-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\star-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\star-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\star-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\star-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\star-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\star-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\tag-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\tag-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\tag-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\tag-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\tag-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\tag-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\user-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\user-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\user-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\user-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\user-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\user-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\video-black.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\video-black.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\video-black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\video-white.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-png\video-white.png">
       <PackagePath>www\js\jquery\mobile\images\icons-png\video-white.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_diagonals-small_50_262626_40x40.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_diagonals-small_50_262626_40x40.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_diagonals-small_50_262626_40x40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_diagonals-thick_20_666666_40x40.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_diagonals-thick_20_666666_40x40.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_diagonals-thick_20_666666_40x40.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_flat_10_000000_40x100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_flat_10_000000_40x100.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_flat_10_000000_40x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_100_f6f6f6_1x400.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_100_f6f6f6_1x400.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_glass_100_f6f6f6_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_100_fdf5ce_1x400.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_100_fdf5ce_1x400.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_glass_100_fdf5ce_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_40_0a0a0a_1x400.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_40_0a0a0a_1x400.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_glass_40_0a0a0a_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_55_f1fbe5_1x400.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_55_f1fbe5_1x400.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_glass_55_f1fbe5_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_60_000000_1x400.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_60_000000_1x400.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_glass_60_000000_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_65_ffffff_1x400.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_glass_65_ffffff_1x400.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_glass_65_ffffff_1x400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_55_000000_500x100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_55_000000_500x100.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_gloss-wave_55_000000_500x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_85_9fda58_500x100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_85_9fda58_500x100.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_gloss-wave_85_9fda58_500x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_95_f6ecd5_500x100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_gloss-wave_95_f6ecd5_500x100.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_gloss-wave_95_f6ecd5_500x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png">
       <PackagePath>www\js\jquery\ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_000000_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_000000_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_000000_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_1f1f1f_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_1f1f1f_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_1f1f1f_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_222222_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_222222_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_222222_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_228ef1_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_228ef1_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_228ef1_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_9fda58_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_9fda58_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_9fda58_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_b8ec79_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_b8ec79_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_b8ec79_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_cd0a0a_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_cd0a0a_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_cd0a0a_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_ef8c08_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_ef8c08_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_ef8c08_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_ffd27a_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_ffd27a_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_ffd27a_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_ffffff_256x240.png">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_ffffff_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_ffffff_256x240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\app\editTask.html">
-      <PackagePath>www\app\editTask.html</PackagePath>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\app\app.js">
+      <PackagePath>www\app\app.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\view.html">
-      <PackagePath>www\demo\dashboard\view.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\widget_settings.html">
-      <PackagePath>www\demo\dashboard\widget_settings.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\gridly.html">
-      <PackagePath>www\gridly.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\index.html">
-      <PackagePath>www\index.html</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\app\editTaskCtrl.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\app\editTaskCtrl.js">
       <PackagePath>www\app\editTaskCtrl.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\app\indexCtrl.js">
-      <PackagePath>www\app\indexCtrl.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\app\taskCtrl.js">
+      <PackagePath>www\app\taskCtrl.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\cordova-js-src\exec.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\cordova-js-src\exec.js">
       <PackagePath>www\cordova-js-src\exec.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\cordova-js-src\platform.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\cordova-js-src\platform.js">
       <PackagePath>www\cordova-js-src\platform.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\cordova.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\cordova_plugins.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\script.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\script.js">
       <PackagePath>www\demo\dashboard\script.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\js\xeditable.js">
-      <PackagePath>www\js\angular-xeditable-0.1.12\js\xeditable.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\js\xeditable.min.js">
-      <PackagePath>www\js\angular-xeditable-0.1.12\js\xeditable.min.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular.min.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\angular.min.js">
       <PackagePath>www\js\angular.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\javascripts\jquery.gridly.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\javascripts\jquery.gridly.js">
       <PackagePath>www\js\gridly\javascripts\jquery.gridly.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\angular-gridster.min.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\angular-gridster.min.js">
       <PackagePath>www\js\gridster\angular-gridster.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\jquery.ba-resize.min.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\jquery.ba-resize.min.js">
       <PackagePath>www\js\gridster\jquery.ba-resize.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\index_old.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\index_old.js">
       <PackagePath>www\js\index_old.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\jquery-2.2.3.min.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\jquery-2.2.3.min.js">
       <PackagePath>www\js\jquery\jquery-2.2.3.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.js">
       <PackagePath>www\js\jquery\mobile\jquery.mobile-1.4.5.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.min.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.min.js">
       <PackagePath>www\js\jquery\mobile\jquery.mobile-1.4.5.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.js">
       <PackagePath>www\js\jquery\ui\jquery-ui.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.min.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.min.js">
       <PackagePath>www\js\jquery\ui\jquery-ui.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.Ext.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.Ext.js">
       <PackagePath>www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.Ext.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.js">
       <PackagePath>www\plugins\cordova-plugin-ms-azure-mobile-apps\www\MobileServices.Web.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\scripts\platformOverrides.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\scripts\cordova.js">
+      <PackagePath>www\scripts\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\scripts\winstore-jscompat.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\scripts\winstore-jscompat.js">
       <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\WinJS\js\base.js">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\css\bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\app\editTask.html">
+      <PackagePath>www\app\editTask.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\app\task.html">
+      <PackagePath>www\app\task.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\view.html">
+      <PackagePath>www\demo\dashboard\view.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\widget_settings.html">
+      <PackagePath>www\demo\dashboard\widget_settings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\gridly.html">
+      <PackagePath>www\gridly.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\css\bootstrap.min.css">
       <PackagePath>www\css\bootstrap.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\css\inappbrowser.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\css\inappbrowser.css">
       <PackagePath>www\css\inappbrowser.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\css\index.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\style.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\style.css">
       <PackagePath>www\demo\dashboard\style.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\css\xeditable.css">
-      <PackagePath>www\js\angular-xeditable-0.1.12\css\xeditable.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\css\xeditable.min.css">
-      <PackagePath>www\js\angular-xeditable-0.1.12\css\xeditable.min.css</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\stylesheets\jquery.gridly.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\stylesheets\jquery.gridly.css">
       <PackagePath>www\js\gridly\stylesheets\jquery.gridly.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\angular-gridster.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\angular-gridster.min.css">
       <PackagePath>www\js\gridster\angular-gridster.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile-1.4.5.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.min.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.external-png-1.4.5.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.external-png-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.external-png-1.4.5.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.external-png-1.4.5.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.external-png-1.4.5.min.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.external-png-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.icons-1.4.5.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.icons-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.icons-1.4.5.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.icons-1.4.5.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.icons-1.4.5.min.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.icons-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-png-1.4.5.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-png-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.inline-png-1.4.5.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-png-1.4.5.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-png-1.4.5.min.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.inline-png-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-svg-1.4.5.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-svg-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.inline-svg-1.4.5.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-svg-1.4.5.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.inline-svg-1.4.5.min.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.inline-svg-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.structure-1.4.5.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.structure-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.structure-1.4.5.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.structure-1.4.5.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.structure-1.4.5.min.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.structure-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.theme-1.4.5.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.theme-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.theme-1.4.5.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.theme-1.4.5.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile.theme-1.4.5.min.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile.theme-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.css">
       <PackagePath>www\js\jquery\ui\jquery-ui.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.min.css">
       <PackagePath>www\js\jquery\ui\jquery-ui.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.structure.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.structure.css">
       <PackagePath>www\js\jquery\ui\jquery-ui.structure.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.structure.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.structure.min.css">
       <PackagePath>www\js\jquery\ui\jquery-ui.structure.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.theme.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.theme.css">
       <PackagePath>www\js\jquery\ui\jquery-ui.theme.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.theme.min.css">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.theme.min.css">
       <PackagePath>www\js\jquery\ui\jquery-ui.theme.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\css\bootstrap.min.css.map">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\css\bootstrap.min.css.map">
       <PackagePath>www\css\bootstrap.min.css.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\javascripts\jquery.gridly.js.map">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\angular.min.js.map">
+      <PackagePath>www\js\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\javascripts\jquery.gridly.js.map">
       <PackagePath>www\js\gridly\javascripts\jquery.gridly.js.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\stylesheets\jquery.gridly.css.map">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\stylesheets\jquery.gridly.css.map">
       <PackagePath>www\js\gridly\stylesheets\jquery.gridly.css.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.min.map">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.min.map">
       <PackagePath>www\js\jquery\mobile\jquery.mobile-1.4.5.min.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\ajax-loader.gif">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\ajax-loader.gif">
       <PackagePath>www\js\jquery\mobile\images\ajax-loader.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\action-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\action-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\action-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\action-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\action-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\action-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\alert-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\alert-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\alert-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\alert-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\alert-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\alert-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-d-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-l-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-l-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-d-l-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-l-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-l-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-d-l-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-r-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-r-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-d-r-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-r-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-r-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-d-r-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-d-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-d-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-l-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-l-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-l-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-l-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-l-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-l-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-r-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-r-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-r-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-r-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-r-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-r-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-u-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-l-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-l-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-u-l-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-l-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-l-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-u-l-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-r-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-r-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-u-r-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-r-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-r-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-u-r-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\arrow-u-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\arrow-u-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\audio-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\audio-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\audio-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\audio-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\audio-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\audio-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\back-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\back-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\back-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\back-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\back-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\back-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bars-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bars-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\bars-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bars-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bars-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\bars-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bullets-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bullets-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\bullets-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bullets-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\bullets-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\bullets-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\calendar-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\calendar-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\calendar-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\calendar-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\calendar-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\calendar-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\camera-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\camera-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\camera-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\camera-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\camera-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\camera-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-d-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-d-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-d-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-d-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-d-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-d-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-l-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-l-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-l-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-l-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-l-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-l-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-r-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-r-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-r-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-r-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-r-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-r-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-u-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-u-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-u-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-u-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\carat-u-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\carat-u-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\check-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\check-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\check-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\check-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\check-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\check-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\clock-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\clock-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\clock-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\clock-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\clock-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\clock-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\cloud-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\cloud-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\cloud-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\cloud-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\cloud-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\cloud-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\comment-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\comment-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\comment-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\comment-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\comment-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\comment-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\delete-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\delete-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\delete-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\delete-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\delete-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\delete-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\edit-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\edit-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\edit-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\edit-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\edit-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\edit-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\eye-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\eye-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\eye-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\eye-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\eye-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\eye-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forbidden-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forbidden-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\forbidden-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forbidden-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forbidden-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\forbidden-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forward-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forward-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\forward-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forward-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\forward-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\forward-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\gear-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\gear-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\gear-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\gear-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\gear-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\gear-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\grid-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\grid-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\grid-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\grid-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\grid-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\grid-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\heart-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\heart-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\heart-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\heart-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\heart-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\heart-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\home-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\home-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\home-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\home-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\home-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\home-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\info-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\info-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\info-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\info-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\info-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\info-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\location-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\location-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\location-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\location-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\location-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\location-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\lock-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\lock-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\lock-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\lock-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\lock-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\lock-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\mail-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\mail-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\mail-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\mail-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\mail-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\mail-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\minus-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\minus-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\minus-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\minus-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\minus-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\minus-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\navigation-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\navigation-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\navigation-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\navigation-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\navigation-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\navigation-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\phone-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\phone-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\phone-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\phone-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\phone-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\phone-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\plus-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\plus-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\plus-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\plus-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\plus-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\plus-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\power-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\power-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\power-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\power-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\power-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\power-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\recycle-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\recycle-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\recycle-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\recycle-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\recycle-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\recycle-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\refresh-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\refresh-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\refresh-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\refresh-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\refresh-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\refresh-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\search-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\search-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\search-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\search-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\search-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\search-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\shop-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\shop-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\shop-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\shop-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\shop-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\shop-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\star-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\star-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\star-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\star-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\star-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\star-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\tag-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\tag-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\tag-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\tag-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\tag-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\tag-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\user-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\user-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\user-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\user-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\user-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\user-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\video-black.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\video-black.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\video-black.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\video-white.svg">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\icons-svg\video-white.svg">
       <PackagePath>www\js\jquery\mobile\images\icons-svg\video-white.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\config.xml">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\www\Web.config">
+      <PackagePath>www\Web.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\build\windows\debug\anycpu\resources.pri">
+    <AppxPackagedFile Include="C:\Users\RMIAdmin\Documents\GitHubVisualStudio\Priorities.io\Priorities.UI\platforms\windows\build\windows\debug\anycpu\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

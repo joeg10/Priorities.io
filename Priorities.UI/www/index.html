@@ -6,324 +6,36 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
 
-
-    <!--<link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.1.412/styles/kendo.common-material.min.css" />
-    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.1.412/styles/kendo.default.min.css" />
-    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.1.412/styles/kendo.mobile.all.min.css" />-->
-
     <link rel="stylesheet" type="text/css" href="css/index.css" />
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-    <!--<link href="js/jquery/jquery.mobile-1.4.5.min.css" rel="stylesheet" />-->
     <script src="js/jquery/jquery-2.2.3.min.js"></script>
     <script src="js/jquery/ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js.map"></script>-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
     
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap-tpls.min.js"></script>-->
-    <!--<script src="js/angular-xeditable-0.1.12/js/xeditable.min.js"></script>
-    <link href="js/angular-xeditable-0.1.12/css/xeditable.min.css" rel="stylesheet" />-->
+
     <script src="js/jquery/mobile/jquery.mobile-1.4.5.min.js"></script>
     <link href="js/gridster/angular-gridster.min.css" rel="stylesheet" />
     <script src="js/gridster/angular-gridster.min.js"></script>
     <script src="js/gridster/jquery.ba-resize.min.js"></script>
-    <!--<script src="js/gridly/javascripts/jquery.gridly.js"></script>
-    <link href="js/gridly/stylesheets/jquery.gridly.css" rel="stylesheet" />-->
+    
     <title>Priorities.io</title>
 </head>
-
-<body ng-controller="indexCtrl as vm" ng-cloak>
+ <!--ng-cloak-->
+<body>
 
     <section class="container">
-        <div class="page-header">
-            <h1>
-                <span class="fa fa-cloud" aria-hidden="true"></span>
-                <span style="padding-bottom:10px">Priorities.io</span>
-                <i style="cursor: pointer;" ng-class="{'fa fa-th pull-right': vm.display === 'list', 'fa fa-th-list pull-right': vm.display === 'grid'}" class="fa fa-th pull-right" aria-hidden="true" ng-click="vm.changeDisplay()"></i>
-            </h1>
-        </div>
-
-
-        <div class="input-group" style="padding-bottom:15px">
-            <input type="text" class="form-control" ng-model="vm.addTaskText"
-                   placeholder="new task" ng-keypress="($event.which === 13)?vm.addTask():0" />
-            <span class="input-group-btn">
-                <button ng-click="vm.addTask()" class="btn btn-success">Add Task</button>
-            </span>
-        </div>
-        <div class="panel panel-default">
-            <div class="list-group">
-                <div id="accordion" ng-show="vm.display === 'list'">
-                    <div href="#" class="list-group-item" ng-repeat="task in vm.task">
-                        <span style="cursor: move;">
-                            {{task.title}} <span class="pull-right">
-                                {{task.due_date}}
-                                <i class="fa fa-remove danger" ng-click="vm.deleteTask(task)">  </i>
-                            </span>
-                        </span>
-                        <div><p>{{task.description}}</p></div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div gridster="gridsterOptions" ng-show="vm.display === 'grid'">
-                <ul>
-                    <li gridster-item="widget" ng-repeat="task in vm.task">
-                        <div class="box">
-                            <div class="box-header">
-                                <h3>{{ task.title }}</h3>
-                                <div class="box-header-btns pull-right">
-
-                                    <i class="fa fa-pencil-square-o" ng-click="vm.editItem()"></i>
-                                    <!--<span ng-show="editableForm.$visible">
-                                        <i class="fa fa-floppy-o" ng-disabled="editableForm.$waiting"></i>
-                                        <i class="fa fa-ban" ng-disabled="editableForm.$waiting" ng-click="editableForm.$cancel()"></i>
-                                    </span>-->
-                                    <i class="fa fa-trash-o" ng-click="vm.deleteTask(task)"></i>
-                                </div>
-                            </div>
-                            <div class="box-content">
-                                <table>
-                                    <tr><td colspan="2">{{ task.title }}</td></tr>
-                                    <tr><td>Status:</td><td>{{ task.status }}</td></tr>
-                                    <tr><td>Created:</td><td>{{ task.create_date }}</td></tr>
-                                    <tr><td>Started:</td><td>{{ task.start_date }}</td></tr>
-                                    <tr><td>Due:</td><td>{{ task.due_date }}</td></tr>
-                                </table>   
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-
-
-            <!--onbeforesave="checkName($data)"-->
-            <!--<div gridster ng-show="vm.display === 'grid'">
-                <ul class="tasks">
-                    <li class="brick large" gridster-item="item" ng-repeat="task in vm.task">
-                        <form editable-form name="editableForm" onaftersave="saveUser()">
-                            <div class="header">
-                                
-                                <div class="box-header">
-                                    <h4><span class="header text"><span editable-text="task.title" e-name="title" e-required>{{ task.title || 'empty' }}</span></span></h4>
-                                    <div class="headerButtons pull-right">
-
-                                        <i class="fa fa-pencil-square-o" ng-click="editableForm.$show()" ng-show="!editableForm.$visible"></i>
-                                        <span ng-show="editableForm.$visible">
-                                            <i class="fa fa-floppy-o" ng-disabled="editableForm.$waiting"></i>
-                                            <i class="fa fa-ban" ng-disabled="editableForm.$waiting" ng-click="editableForm.$cancel()"></i>
-                                        </span>
-                                        <i class="fa fa-trash-o" ng-click="vm.deleteTask(task)"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="body">
-                                <table>
-                                    <tr><td colspan="2"><span editable-text="task.description" e-name="description" e-required>{{ task.description || 'empty' }}</span></td></tr>
-                                    <tr><td>Status:</td><td><span editable-text="task.status" e-name="status" e-required>{{ task.status || 'empty' }}</span></td></tr>
-                                    <tr><td>Created:</td><td><span editable-text="task.create_date" e-name="create_date" e-required>{{ task.create_date || 'empty' }}</span></td></tr>
-                                    <tr><td>Started:</td><td><span editable-text="task.start_date" e-name="start_date" e-required>{{ task.start_date || 'empty' }}</span></td></tr>
-                                </table>                                
-                                
-                                
-                                
-                                
-                            </div>
-                            <span class="footer">
-                                <span class="footer text">
-                                    <span editable-text="task.due_date" e-name="due_date" e-required>{{ task.due_date || 'empty' }}</span>
-                                </span>
-                            </span>
-
-                        </form>
-                    </li>
-                </ul>
-
-            </div>-->
-
-
-
-        </div>
-
-        <!--<script type="text/ng-template" id="editModal.html">
-            <div class="modal-header">
-                <h3 class="modal-title">Edit Task</h3>
-            </div>
-            <div class="modal-body">
-              test  {{selectedTask.title}}
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-                <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
-            </div>
-        </script>-->
+        <!--<div ui-view></div>-->test
     </section>
 
-
-
-    <script>
-
-        //(function () {
-        //    $(function () {
-        //        var brick;
-        //        brick = "<div class='brick small'><div class='delete'>&times;</div></div>";
-        //        $(document).on("click touchend", ".gridly .brick", function (event) {
-        //            var $this, size;
-        //            event.preventDefault();
-        //            event.stopPropagation();
-        //            $this = $(this);
-        //            $this.toggleClass('small');
-        //            $this.toggleClass('large');
-        //            if ($this.hasClass('small')) {
-        //                size = 140;
-        //            }
-        //            if ($this.hasClass('large')) {
-        //                size = 300;
-        //            }
-        //            $this.data('width', size);
-        //            $this.data('height', size);
-        //            return $('.gridly').gridly('layout');
-        //        });
-        //        $(document).on("click", ".gridly .delete", function (event) {
-        //            var $this;
-        //            event.preventDefault();
-        //            event.stopPropagation();
-        //            $this = $(this);
-        //            $this.closest('.brick').remove();
-        //            return $('.gridly').gridly('layout');
-        //        });
-        //        $(document).on("click", ".add", function (event) {
-        //            event.preventDefault();
-        //            event.stopPropagation();
-        //            $('.gridly').append(brick);
-        //            return $('.gridly').gridly();
-        //        });
-        //        return $('.gridly').gridly();
-        //    });
-
-        //}).call(this);
-
-        $(function () {
-            //$('.gridly').gridly({
-            //    base: 60, // px
-            //    gutter: 20, // px
-            //    columns: 3
-            //});
-
-            var icons = {
-                header: "fa fa-arrow-down",
-                activeHeader: "fa fa-arrow-up"
-            };
-            $("#accordion")
-                    .accordion({
-                        header: '> div > span',
-                        autoHeight: false,
-                        icons: icons
-                    })
-                    .sortable({
-                        axis: 'y',
-                        handle: 'span',
-                        stop: function (event, ui) {
-                            // IE doesn't register the blur when sorting
-                            // so trigger focusout handlers to remove .ui-state-focus
-                            ui.item.children('h3').triggerHandler('focusout');
-
-                            // Refresh accordion to handle new order
-                            $(this).accordion("refresh");
-                        }
-                    });
-        });
-
-
-    </script>
-    <script src="app/indexCtrl.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/taskCtrl.js"></script>
     <script src="app/editTaskCtrl.js"></script>
+    <script type="text/javascript" src="scripts/cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 </html>
-
-<!--</table>-->
-<!--<ul id="sortable">
-
-    <li class="ui-state-default" ng-repeat="task in vm.task">
-        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>{{task.tasktext}}
-        <button class="btn btn-xs btn-danger pull-right"
-                ng-click="vm.deleteTask(task)">
-            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-        </button>
-    </li>
-</ul>-->
-<!--<section class='example'>
-    <div class='gridly'>
-        <div ng-repeat="task in vm.task" class='brick small'>
-            {{task.tasktext}}<button class="btn btn-xs btn-danger pull-right"
-                                     ng-click="vm.deleteTask(task)">
-                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-            </button>
-        </div>
-    </div>
-</section>-->
-<!--<body>
-    <div id='wrapper'>
-        <article>
-            <header>
-                <h2>Azure</h2>
-                <h1>Mobile Apps</h1>
-
-                <form id='add-item'>
-                    <button type='submit' id='refresh'>Refresh</button>
-                    <button type='submit'>Add</button>
-                    <div><input type='text' id='new-item-text' placeholder='Enter new task' /></div>
-                </form>
-            </header>
-
-            <ul id='todo-items'></ul>
-            <p id='summary'>Initializing...</p>
-        </article>
-
-        <footer>
-            <ul id='errorlog'></ul>
-        </footer>
-    </div>-->
-<!--<script type="text/javascript" src="cordova.js"></script>-->
-<!--<script type="text/javascript" src="js/index.js"></script>-->
-<!--<script>
-    (function () {
-        $(function () {
-            $('.gridly').gridly({
-                columns: 2
-            });
-            $('.gridly').gridly('draggable');
-            return $('.gridly .brick').click(function (event) {
-                var size;
-                event.preventDefault();
-                event.stopPropagation();
-                $(this).toggleClass('small');
-                $(this).toggleClass('large');
-                if ($(this).hasClass('small')) {
-                    size = 140;
-                }
-                if ($(this).hasClass('large')) {
-                    size = 300;
-                }
-                $(this).data('width', size);
-                $(this).data('height', size);
-                return $('.gridly').gridly('layout');
-            });
-        });
-
-    }).call(this);-->
-<!--//$('.gridly').gridly({
-//    base: 60,
-//    gutter: 20,
-//    columns: 1,
-//    draggable: {
-//        zIndex: 800,
-//        selector: '> *'
-//    }
-//});
-
-//$('.gridly').gridly();-->
-<!--</script>-->

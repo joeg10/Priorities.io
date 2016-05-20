@@ -1,0 +1,96 @@
+﻿<div ng-controller="taskCtrl">
+    <div class="page-header">
+        <h1>
+            <span class="fa fa-cloud" aria-hidden="true"></span>
+            <span style="padding-bottom:10px">Priorities.io</span>
+            <i style="cursor: pointer;" ng-class="{'fa fa-th pull-right': display === 'list', 'fa fa-th-list pull-right': display === 'grid'}" class="fa fa-th pull-right" aria-hidden="true" ng-click="changeDisplay()"></i>
+        </h1>
+    </div>
+    <div class="input-group" style="padding-bottom:15px">
+        <input type="text" class="form-control" ng-model="addTaskText"
+               placeholder="new task" ng-keypress="($event.which === 13)?addTask():0" />
+        <span class="input-group-btn">
+            <button ng-click="addTask()" class="btn btn-success">Add Task</button>
+        </span>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="list-group">
+            <div id="accordion" ng-show="display === 'list'">
+                <div href="#" class="list-group-item" ng-repeat="task in task">
+                    <span style="cursor: move;">
+                        {{task.title}} <span class="pull-right">
+                            {{task.due_date}}
+                            <i class="fa fa-remove danger" ng-click="deleteTask(task)">  </i>
+                        </span>
+                    </span>
+                    <div><p>{{task.description}}</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div gridster="gridsterOptions" ng-show="display === 'grid'">
+            <ul>
+                <li gridster-item="widget" ng-repeat="task in task">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3>{{ task.title }}</h3>
+                            <div class="box-header-btns pull-right">
+
+                                <i class="fa fa-pencil-square-o" ng-click="editItem()"></i>
+                                <!--<span ng-show="editableForm.$visible">
+                                    <i class="fa fa-floppy-o" ng-disabled="editableForm.$waiting"></i>
+                                    <i class="fa fa-ban" ng-disabled="editableForm.$waiting" ng-click="editableForm.$cancel()"></i>
+                                </span>-->
+                                <i class="fa fa-trash-o" ng-click="deleteTask(task)"></i>
+                            </div>
+                        </div>
+                        <div class="box-content">
+                            <table>
+                                <tr><td colspan="2">{{ task.title }}</td></tr>
+                                <tr><td>Status:</td><td>{{ task.status }}</td></tr>
+                                <tr><td>Created:</td><td>{{ task.create_date }}</td></tr>
+                                <tr><td>Started:</td><td>{{ task.start_date }}</td></tr>
+                                <tr><td>Due:</td><td>{{ task.due_date }}</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+
+
+</div>
+<script>
+  $(function () {
+
+
+            var icons = {
+                header: "fa fa-arrow-down",
+                activeHeader: "fa fa-arrow-up"
+            };
+            $("#accordion")
+                    .accordion({
+                        header: '> div > span',
+                        autoHeight: false,
+                        icons: icons
+                    })
+                    .sortable({
+                        axis: 'y',
+                        handle: 'span',
+                        stop: function (event, ui) {
+                            // IE doesn't register the blur when sorting
+                            // so trigger focusout handlers to remove .ui-state-focus
+                            ui.item.children('h3').triggerHandler('focusout');
+
+                            // Refresh accordion to handle new order
+                            $(this).accordion("refresh");
+                        }
+                    });
+        });
+</script>
