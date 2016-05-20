@@ -114,115 +114,134 @@ body {
             text-align: left;
         }
 
-          .tasks .brick .body .formButtons {
+/*.tasks .brick .body .formButtons {
             color: #FFF;
             bottom: 0;
             left: 0;
             position: absolute;
-        }
+        }*/
 
-      
+.headerButtons {
+    top: 2px;
+    right: 10px;
+    cursor: pointer;
+    position: absolute;
+}
 
-        .tasks .brick .footer .text {
-            font-weight: bold;
-            color: #FFF;
-            text-align: right;
-            padding-right: 8px;
-        }
+.box-header {
+    background-color: transparent;
+    padding: 0 30px 0 10px;
+    
+    cursor: move;
+    position: relative;
+}
 
-        .tasks .brick.small {
-            width: 140px;
-            height: 140px;
-        }
+    .box-header h3 {
+        margin-top: 10px;
+        display: inline-block;
+    }
 
-        .tasks .brick.large {
-            width: 250px;
-            height: 250px;
-        }
 
-        .tasks .brick.dragging {
-            opacity: 0.8;
-        }
+.tasks .brick .footer .text {
+    font-weight: bold;
+    color: #FFF;
+    text-align: right;
+    padding-right: 8px;
+}
 
-        .tasks .brick:nth-child(20n + 1) {
-            background: #1ABC9C;
-        }
+.tasks .brick.small {
+    width: 140px;
+    height: 140px;
+}
 
-        .tasks .brick:nth-child(20n + 2) {
-            background: #16A085;
-        }
+.tasks .brick.large {
+    width: 250px;
+    height: 250px;
+}
 
-        .tasks .brick:nth-child(20n + 3) {
-            background: #2ECC71;
-        }
+.tasks .brick.dragging {
+    opacity: 0.8;
+}
 
-        .tasks .brick:nth-child(20n + 4) {
-            background: #27AE60;
-        }
+.tasks .brick:nth-child(20n + 1) {
+    background: #1ABC9C;
+}
 
-        .tasks .brick:nth-child(20n + 5) {
-            background: #3498DB;
-        }
+.tasks .brick:nth-child(20n + 2) {
+    background: #16A085;
+}
 
-        .tasks .brick:nth-child(20n + 6) {
-            background: #2980B9;
-        }
+.tasks .brick:nth-child(20n + 3) {
+    background: #2ECC71;
+}
 
-        .tasks .brick:nth-child(20n + 7) {
-            background: #9B59B6;
-        }
+.tasks .brick:nth-child(20n + 4) {
+    background: #27AE60;
+}
 
-        .tasks .brick:nth-child(20n + 8) {
-            background: #8E44AD;
-        }
+.tasks .brick:nth-child(20n + 5) {
+    background: #3498DB;
+}
 
-        .tasks .brick:nth-child(20n + 9) {
-            background: #34495E;
-        }
+.tasks .brick:nth-child(20n + 6) {
+    background: #2980B9;
+}
 
-        .tasks .brick:nth-child(20n + 10) {
-            background: #2C3E50;
-        }
+.tasks .brick:nth-child(20n + 7) {
+    background: #9B59B6;
+}
 
-        .tasks .brick:nth-child(20n + 11) {
-            background: #F1C40F;
-        }
+.tasks .brick:nth-child(20n + 8) {
+    background: #8E44AD;
+}
 
-        .tasks .brick:nth-child(20n + 12) {
-            background: #F39C12;
-        }
+.tasks .brick:nth-child(20n + 9) {
+    background: #34495E;
+}
 
-        .tasks .brick:nth-child(20n + 13) {
-            background: #E67E22;
-        }
+.tasks .brick:nth-child(20n + 10) {
+    background: #2C3E50;
+}
 
-        .tasks .brick:nth-child(20n + 14) {
-            background: #D35400;
-        }
+.tasks .brick:nth-child(20n + 11) {
+    background: #F1C40F;
+}
 
-        .tasks .brick:nth-child(20n + 15) {
-            background: #E74C3C;
-        }
+.tasks .brick:nth-child(20n + 12) {
+    background: #F39C12;
+}
 
-        .tasks .brick:nth-child(20n + 16) {
-            background: #C0392B;
-        }
+.tasks .brick:nth-child(20n + 13) {
+    background: #E67E22;
+}
 
-        .tasks .brick:nth-child(20n + 17) {
-            background: #ECF0F1;
-        }
+.tasks .brick:nth-child(20n + 14) {
+    background: #D35400;
+}
 
-        .tasks .brick:nth-child(20n + 18) {
-            background: #BDC3C7;
-        }
+.tasks .brick:nth-child(20n + 15) {
+    background: #E74C3C;
+}
 
-        .tasks .brick:nth-child(20n + 19) {
-            background: #95A5A6;
-        }
+.tasks .brick:nth-child(20n + 16) {
+    background: #C0392B;
+}
 
-        .tasks .brick:nth-child(20n + 20) {
-            background: #7F8C8D;
-        }
+.tasks .brick:nth-child(20n + 17) {
+    background: #ECF0F1;
+}
+
+.tasks .brick:nth-child(20n + 18) {
+    background: #BDC3C7;
+}
+
+.tasks .brick:nth-child(20n + 19) {
+    background: #95A5A6;
+}
+
+.tasks .brick:nth-child(20n + 20) {
+    background: #7F8C8D;
+}
 
 .danger {
     color: red;
@@ -247,3 +266,49 @@ footer {
     display: inline-block;
     text-align: left;
 }
+
+
+
+.controls {
+    margin-bottom: 20px;
+}
+.page-header {
+    margin-top: 20px;
+}
+ul {
+    list-style: none;
+}
+.box {
+    height: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.box-header {
+    background-color: #eee;
+    padding: 0 30px 0 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: move;
+    position: relative;
+}
+.box-header h3 {
+    margin-top: 10px;
+    display: inline-block;
+}
+.box-content {
+    padding: 10px;
+}
+.box-header-btns {
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    position: absolute;
+}
+a {
+    color: #ccc;
+}
+form {
+    margin-bottom: 0;
+}
+/*.gridster {
+    border: 1px solid #ccc;
+}*/

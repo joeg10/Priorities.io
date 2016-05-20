@@ -19,10 +19,11 @@
     <script src="js/jquery/jquery-2.2.3.min.js"></script>
     <script src="js/jquery/ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.min.js"></script>
+    
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap-tpls.min.js"></script>-->
-    <script src="js/angular-xeditable-0.1.12/js/xeditable.min.js"></script>
-    <link href="js/angular-xeditable-0.1.12/css/xeditable.min.css" rel="stylesheet" />
-    <script src="js/taskCtrl.js"></script>
+    <!--<script src="js/angular-xeditable-0.1.12/js/xeditable.min.js"></script>
+    <link href="js/angular-xeditable-0.1.12/css/xeditable.min.css" rel="stylesheet" />-->
     <script src="js/jquery/mobile/jquery.mobile-1.4.5.min.js"></script>
     <link href="js/gridster/angular-gridster.min.css" rel="stylesheet" />
     <script src="js/gridster/angular-gridster.min.js"></script>
@@ -32,7 +33,7 @@
     <title>Priorities.io</title>
 </head>
 
-<body ng-controller="taskCtrl as vm" ng-cloak>
+<body ng-controller="indexCtrl as vm" ng-cloak>
 
     <section class="container">
         <div class="page-header">
@@ -65,28 +66,75 @@
                     </div>
                 </div>
             </div>
-            <div gridster ng-show="vm.display === 'grid'">
+
+
+            <div gridster="gridsterOptions" ng-show="vm.display === 'grid'">
+                <ul>
+                    <li gridster-item="widget" ng-repeat="task in vm.task">
+                        <div class="box">
+                            <div class="box-header">
+                                <h3>{{ task.title }}</h3>
+                                <div class="box-header-btns pull-right">
+
+                                    <i class="fa fa-pencil-square-o" ng-click="vm.editItem()"></i>
+                                    <!--<span ng-show="editableForm.$visible">
+                                        <i class="fa fa-floppy-o" ng-disabled="editableForm.$waiting"></i>
+                                        <i class="fa fa-ban" ng-disabled="editableForm.$waiting" ng-click="editableForm.$cancel()"></i>
+                                    </span>-->
+                                    <i class="fa fa-trash-o" ng-click="vm.deleteTask(task)"></i>
+                                </div>
+                            </div>
+                            <div class="box-content">
+                                <table>
+                                    <tr><td colspan="2">{{ task.title }}</td></tr>
+                                    <tr><td>Status:</td><td>{{ task.status }}</td></tr>
+                                    <tr><td>Created:</td><td>{{ task.create_date }}</td></tr>
+                                    <tr><td>Started:</td><td>{{ task.start_date }}</td></tr>
+                                    <tr><td>Due:</td><td>{{ task.due_date }}</td></tr>
+                                </table>   
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <!--onbeforesave="checkName($data)"-->
+            <!--<div gridster ng-show="vm.display === 'grid'">
                 <ul class="tasks">
                     <li class="brick large" gridster-item="item" ng-repeat="task in vm.task">
                         <form editable-form name="editableForm" onaftersave="saveUser()">
-                            <span class="header">
+                            <div class="header">
+                                
+                                <div class="box-header">
+                                    <h4><span class="header text"><span editable-text="task.title" e-name="title" e-required>{{ task.title || 'empty' }}</span></span></h4>
+                                    <div class="headerButtons pull-right">
 
-                                <!--onbeforesave="checkName($data)"-->
-                                <span class="header text"><span editable-text="task.title" e-name="title" e-required>{{ task.title || 'empty' }}</span></span>
-                            </span><a class='delete' ng-click="vm.deleteTask(task)">&times;</a>
-                            <div class="body">
-                                {{task.description}}
-                                <div class="body formButtons">
-                                    <i class="fa fa-pencil-square-o pull-right" ng-click="editableForm.$show()" ng-show="!editableForm.$visible"></i>
-                                    <span ng-show="editableForm.$visible">
-                                        <i class="fa fa-floppy-o pull-right" ng-disabled="editableForm.$waiting"></i>
-                                        <i class="fa fa-ban pull-right" ng-disabled="editableForm.$waiting" ng-click="editableForm.$cancel()"></i>
-                                    </span>
+                                        <i class="fa fa-pencil-square-o" ng-click="editableForm.$show()" ng-show="!editableForm.$visible"></i>
+                                        <span ng-show="editableForm.$visible">
+                                            <i class="fa fa-floppy-o" ng-disabled="editableForm.$waiting"></i>
+                                            <i class="fa fa-ban" ng-disabled="editableForm.$waiting" ng-click="editableForm.$cancel()"></i>
+                                        </span>
+                                        <i class="fa fa-trash-o" ng-click="vm.deleteTask(task)"></i>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="body">
+                                <table>
+                                    <tr><td colspan="2"><span editable-text="task.description" e-name="description" e-required>{{ task.description || 'empty' }}</span></td></tr>
+                                    <tr><td>Status:</td><td><span editable-text="task.status" e-name="status" e-required>{{ task.status || 'empty' }}</span></td></tr>
+                                    <tr><td>Created:</td><td><span editable-text="task.create_date" e-name="create_date" e-required>{{ task.create_date || 'empty' }}</span></td></tr>
+                                    <tr><td>Started:</td><td><span editable-text="task.start_date" e-name="start_date" e-required>{{ task.start_date || 'empty' }}</span></td></tr>
+                                </table>                                
+                                
+                                
+                                
+                                
                             </div>
                             <span class="footer">
                                 <span class="footer text">
-                                    {{task.due_date}}
+                                    <span editable-text="task.due_date" e-name="due_date" e-required>{{ task.due_date || 'empty' }}</span>
                                 </span>
                             </span>
 
@@ -94,25 +142,7 @@
                     </li>
                 </ul>
 
-            </div>
-
-            <div gridster="gridsterOptions">
-                <ul>
-                    <li gridster-item="widget" ng-repeat="task in vm.task">
-                        <div class="box" >
-                            <div class="box-header">
-                                <h3>{{ task.title }}</h3>
-                                <div class="box-header-btns pull-right">
-                                    <a title="settings" ng-click="openSettings(widget)"><i class="glyphicon glyphicon-cog"></i></a>
-                                    <a title="Remove widget" ng-click="remove(widget)"><i class="glyphicon glyphicon-trash"></i></a>
-                                </div>
-                            </div>
-                            <div class="box-content">
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            </div>-->
 
 
 
@@ -209,6 +239,8 @@
 
 
     </script>
+    <script src="app/indexCtrl.js"></script>
+    <script src="app/editTaskCtrl.js"></script>
 </body>
 </html>
 

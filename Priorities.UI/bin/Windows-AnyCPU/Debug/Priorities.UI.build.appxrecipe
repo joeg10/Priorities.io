@@ -430,6 +430,27 @@
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\images\ui-icons_ffffff_256x240.png">
       <PackagePath>www\js\jquery\ui\images\ui-icons_ffffff_256x240.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\app\editTask.html">
+      <PackagePath>www\app\editTask.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\view.html">
+      <PackagePath>www\demo\dashboard\view.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\widget_settings.html">
+      <PackagePath>www\demo\dashboard\widget_settings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\gridly.html">
+      <PackagePath>www\gridly.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\app\editTaskCtrl.js">
+      <PackagePath>www\app\editTaskCtrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\app\indexCtrl.js">
+      <PackagePath>www\app\indexCtrl.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\cordova-js-src\exec.js">
       <PackagePath>www\cordova-js-src\exec.js</PackagePath>
     </AppxPackagedFile>
@@ -442,14 +463,29 @@
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\script.js">
+      <PackagePath>www\demo\dashboard\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\js\xeditable.js">
+      <PackagePath>www\js\angular-xeditable-0.1.12\js\xeditable.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\js\xeditable.min.js">
+      <PackagePath>www\js\angular-xeditable-0.1.12\js\xeditable.min.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular.min.js">
       <PackagePath>www\js\angular.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\index.js">
-      <PackagePath>www\js\index.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\javascripts\jquery.gridly.js">
+      <PackagePath>www\js\gridly\javascripts\jquery.gridly.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery.gridly.js">
-      <PackagePath>www\js\jquery.gridly.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\angular-gridster.min.js">
+      <PackagePath>www\js\gridster\angular-gridster.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\jquery.ba-resize.min.js">
+      <PackagePath>www\js\gridster\jquery.ba-resize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\index_old.js">
+      <PackagePath>www\js\index_old.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\jquery-2.2.3.min.js">
       <PackagePath>www\js\jquery\jquery-2.2.3.min.js</PackagePath>
@@ -465,9 +501,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\ui\jquery-ui.min.js">
       <PackagePath>www\js\jquery\ui\jquery-ui.min.js</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\taskCtrl.js">
-      <PackagePath>www\js\taskCtrl.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
       <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
@@ -499,8 +532,20 @@
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\css\jquery.gridly.css">
-      <PackagePath>www\css\jquery.gridly.css</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\demo\dashboard\style.css">
+      <PackagePath>www\demo\dashboard\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\css\xeditable.css">
+      <PackagePath>www\js\angular-xeditable-0.1.12\css\xeditable.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\angular-xeditable-0.1.12\css\xeditable.min.css">
+      <PackagePath>www\js\angular-xeditable-0.1.12\css\xeditable.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\stylesheets\jquery.gridly.css">
+      <PackagePath>www\js\gridly\stylesheets\jquery.gridly.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridster\angular-gridster.min.css">
+      <PackagePath>www\js\gridster\angular-gridster.min.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.css">
       <PackagePath>www\js\jquery\mobile\jquery.mobile-1.4.5.css</PackagePath>
@@ -565,11 +610,14 @@
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\css\bootstrap.min.css.map">
       <PackagePath>www\css\bootstrap.min.css.map</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\javascripts\jquery.gridly.js.map">
+      <PackagePath>www\js\gridly\javascripts\jquery.gridly.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\gridly\stylesheets\jquery.gridly.css.map">
+      <PackagePath>www\js\gridly\stylesheets\jquery.gridly.css.map</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\jquery.mobile-1.4.5.min.map">
       <PackagePath>www\js\jquery\mobile\jquery.mobile-1.4.5.min.map</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\index.html">
-      <PackagePath>www\index.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Joe\Source\Repos\Priorities.io\Priorities.UI\platforms\windows\www\js\jquery\mobile\images\ajax-loader.gif">
       <PackagePath>www\js\jquery\mobile\images\ajax-loader.gif</PackagePath>
