@@ -16,7 +16,7 @@
 
     <div class="panel panel-default">
         <div class="list-group">
-            <div id="accordion" ng-show="display === 'list'">
+            <!--<div id="accordion" >
                 <div href="#" class="list-group-item" ng-repeat="task in task">
                     <span style="cursor: move;">
                         {{task.title}} <span class="pull-right">
@@ -25,8 +25,28 @@
                         </span>
                     </span>
                     <div><p>{{task.description}}</p></div>
+                </div>-->
+
+                <div class="panel-group" ui-state="myAccordion" ui-default="2" ng-show="display === 'list'">
+
+                    <div class="panel panel-default" ng-repeat="item in task">
+                        <div class="panel-heading" ui-set="{'myAccordion': item.id}">
+                            <h4 class="panel-title">
+                                {{item.title}}<span class="pull-right">
+                                    {{item.due_date}}
+                                    <i class="fa fa-trash" aria-hidden="true" ng-click="deleteTask(task)">  </i>
+                                </span>
+                            </h4>
+                        </div>
+                        <div ui-if="myAccordion == {{item.id}}">
+                            <div class="panel-body">
+                                {{item.description}}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
 
         <div gridster="gridsterOptions" ng-show="display === 'grid'">
@@ -67,30 +87,30 @@
 
 </div>
 <script>
-  $(function () {
+    //$(function () {
 
 
-            var icons = {
-                header: "fa fa-arrow-down",
-                activeHeader: "fa fa-arrow-up"
-            };
-            $("#accordion")
-                    .accordion({
-                        header: '> div > span',
-                        autoHeight: false,
-                        icons: icons
-                    })
-                    .sortable({
-                        axis: 'y',
-                        handle: 'span',
-                        stop: function (event, ui) {
-                            // IE doesn't register the blur when sorting
-                            // so trigger focusout handlers to remove .ui-state-focus
-                            ui.item.children('h3').triggerHandler('focusout');
+    //          var icons = {
+    //              header: "fa fa-arrow-down",
+    //              activeHeader: "fa fa-arrow-up"
+    //          };
+    //          $("#accordion")
+    //                  .accordion({
+    //                      header: '> div > span',
+    //                      autoHeight: false,
+    //                      icons: icons
+    //                  })
+    //                  .sortable({
+    //                      axis: 'y',
+    //                      handle: 'span',
+    //                      stop: function (event, ui) {
+    //                          // IE doesn't register the blur when sorting
+    //                          // so trigger focusout handlers to remove .ui-state-focus
+    //                          ui.item.children('h3').triggerHandler('focusout');
 
-                            // Refresh accordion to handle new order
-                            $(this).accordion("refresh");
-                        }
-                    });
-        });
+    //                          // Refresh accordion to handle new order
+    //                          $(this).accordion("refresh");
+    //                      }
+    //                  });
+    //      });
 </script>
